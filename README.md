@@ -2,6 +2,10 @@
 
 Play PC games with coloured markers in front of a webcam. OpenCV watches screen-sized regions of the camera image for **green**, and each region is wired to a virtual **DualShock 4** controller. Hold a green object in a region and the game sees a button press or a stick push.
 
+![Detection regions](docs/regions.png)
+
+*The six regions as laid out in the code, on the mirrored 1920×1080 frame. This is a schematic, not a screenshot.*
+
 ## How it works
 
 1. The webcam frame is mirrored and resized to your screen resolution.
@@ -41,4 +45,4 @@ Notes:
 Python, OpenCV, NumPy, vgamepad (ViGEm), PyAutoGUI.
 
 ## Author
-Shaikh Mohammad Hasnat, [GitHub](https://github.com/Shaikh-Mohammad-Hasnat)
+Shaikh Mohammad Hasnat, [GitHub](https://github.com/Shaikh-Mohammad-Hasnat), [LinkedIn](https://www.linkedin.com/in/shaikh-mohammad-hasnat-698a08335)
